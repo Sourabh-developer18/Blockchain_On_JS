@@ -1,0 +1,26 @@
+{
+  "name": "blockchain_on_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "hex-to-binary": "^1.0.1",
+    "redis": "^5.9.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
